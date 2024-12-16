@@ -1,0 +1,133 @@
+﻿  main.cpp
+  student.cpp
+  正在生成代码...
+D:\实验五02\student.cpp(13,5): error C2679: 二元“>>”: 没有找到接受“const char *”类型的右操作数的运算符(或没有可接受的转换)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(303,39):
+      可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”: 无法将参数 2 从“const char *”转换为“std::basic_streambuf<char,std::char_traits<char>> *”
+              D:\实验五02\student.cpp(13,16):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(299,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”: 无法将参数 2 从“const char *”转换为“void *&”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(295,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”: 无法将参数 2 从“const char *”转换为“long double &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(291,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”: 无法将参数 2 从“const char *”转换为“double &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(287,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”: 无法将参数 2 从“const char *”转换为“float &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(283,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”: 无法将参数 2 从“const char *”转换为“unsigned __int64 &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(279,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”: 无法将参数 2 从“const char *”转换为“__int64 &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(275,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”: 无法将参数 2 从“const char *”转换为“unsigned long &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(271,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”: 无法将参数 2 从“const char *”转换为“long &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(267,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”: 无法将参数 2 从“const char *”转换为“unsigned int &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(259,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”: 无法将参数 2 从“const char *”转换为“int &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(255,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”: 无法将参数 2 从“const char *”转换为“unsigned short &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(223,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”: 无法将参数 2 从“const char *”转换为“short &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(219,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”: 无法将参数 2 从“const char *”转换为“bool &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(190,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”: 无法将参数 2 从“const char *”转换为“std::ios_base &(__cdecl *)(std::ios_base &)”
+              D:\实验五02\student.cpp(13,16):
+              没有使该转换得以执行的上下文
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(185,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”: 无法将参数 2 从“const char *”转换为“std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)”
+              D:\实验五02\student.cpp(13,16):
+              没有使该转换得以执行的上下文
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(180,39):
+      或    “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”: 无法将参数 2 从“const char *”转换为“std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &)”
+              D:\实验五02\student.cpp(13,16):
+              没有使该转换得以执行的上下文
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(907,9):
+      或    “_Istr &&std::operator >>(_Istr &&,_Ty &&)”
+          D:\实验五02\student.cpp(13,5):
+          “_Istr &&std::operator >>(_Istr &&,_Ty &&)”: 无法推导“__formal”的 模板 参数
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(906,102):
+              “<template-parameter>”: 无法创建指向引用的指针
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(894,31):
+      或    “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)”
+          D:\实验五02\student.cpp(13,16):
+          “初始化”: 无法从“const char *”转换为“unsigned char &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(888,31):
+      或    “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)”
+          D:\实验五02\student.cpp(13,16):
+          “初始化”: 无法从“const char *”转换为“signed char &”
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(865,32):
+      或    “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)”: 模板 参数“_Elem”不明确
+              D:\实验五02\student.cpp(13,5):
+              可能是“const char *”
+              D:\实验五02\student.cpp(13,5):
+              或    “char”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)”: 无法从“const char *”推导出“_Elem &”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(859,31):
+      或    “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)”
+          D:\实验五02\student.cpp(13,16):
+          “初始化”: 无法从“const char *”转换为“unsigned char *”
+              D:\实验五02\student.cpp(13,16):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(854,31):
+      或    “std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)”
+          D:\实验五02\student.cpp(13,16):
+          “初始化”: 无法从“const char *”转换为“signed char *”
+              D:\实验五02\student.cpp(13,16):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream(849,32):
+      或    “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)”: 模板 参数“_Elem”不明确
+              D:\实验五02\student.cpp(13,5):
+              可能是“const char”
+              D:\实验五02\student.cpp(13,5):
+              或    “char”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)”: 无法从“const char *”推导出“_Elem *”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3371,32):
+      或    “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)”
+          D:\实验五02\student.cpp(13,5):
+          “std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“const char *”推导出“std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+      D:\实验五02\student.cpp(13,5):
+      尝试匹配参数列表“(std::istream, const char *)”时
+  
